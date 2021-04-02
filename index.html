@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Calculadora Nota Final Ponderada</title>
+</head>
+<body>
+    
+    <h1>Calculadora Nota Final Ponderada Unijorge</h1>
+    <h3>O Aluno só será aprovado na disciplina se atender a <strong>TODOS</strong> os critérios a seguir:</h3>
+    <ul>
+        <li>Obtiver aproveitamento diferente de zero na A1, ou seja, nota igual ou maior que 0,1. O aluno
+            que não atender a esse critério estará automaticamente reprovado.</li>
+        <li>Obtiver aproveitamento igual ou superior a 5,0 em uma das avaliações presenciais (A2 ou A3).</li>
+        <li>Obtiver grau numérico igual ou maior que 6,0 (seis) na Nota Final Ponderada envolvendo todas
+            as etapas avaliativas (on-line e presencial).</li>
+    </ul>
+
+    <input type="number" placeholder="Nota A1 Ex.: 7.5" name="notaA1" id="notaA1">
+    <input type="number" placeholder="Nota A2 ou A3 Ex.: 7.5" name="notaA2" id="notaA2">
+    <button id="calcular" onclick="calcular()">Calcular</button>
+
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
